@@ -7,7 +7,7 @@ import java.io.InputStream;
 public class URLConnectionDemo {
 	public static void main(String[] args) {
 		try {
-			URL url = new URL("https://github.com/pradeep-pioneer/JanbaskTraining-Java.Sockets");
+			URL url = new URL("https://raw.githubusercontent.com/pradeep-pioneer/JanbaskTraining-Java.Sockets/master/LICENSE");
 			URLConnection urlconnection = url.openConnection();
 			InputStream inputStream = urlconnection.getInputStream();
 			int bytesRead;
